@@ -157,7 +157,7 @@ public class HashTagControl {
 			
 			view.printGameOver(winnerMark);
 			scoreModel.incScore(winnerMark);
-			scoreView.printScore();
+			scoreView.printScore(); 
 	}
 	
 	private void doPlay(Player player) {
